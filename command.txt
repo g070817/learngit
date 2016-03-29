@@ -30,4 +30,7 @@ git log --graph --pretty=oneline -- abbrev-commit
 
 
 
-git push origin :branch-name 删除远程分支
+git push origin :branch-name 删除远程分支git
+
+test merge
+test merge on dev
