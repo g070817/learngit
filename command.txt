@@ -30,5 +30,3 @@ git log --graph --pretty=oneline -- abbrev-commit
 
 
 git push origin :branch-name 
-
-test merge
