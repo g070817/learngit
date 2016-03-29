@@ -1,0 +1,35 @@
+git config --global user.name "xxx@mail.com"
+git config --global user.mail "xxx@mail.com"
+mkdir learngit
+cd learngit
+pwd
+git init
+git add readme.txt
+git commit -m "some notes/info about this commit"
+git log
+git status
+ssh-keygen -t rsa -C "xxx@mail.com"
+git remote add origin git@github.com:g070817/learngit.git
+git push -u origin master
+cat readme.txt
+git checkout -- readme.txt
+git commit -a "notes...."
+git commit -am "notes..."
+git commit -a xxfilename "notes"
+git commit -all "notes..."
+git reset --hard token....
+git clone git@github.com:g070817/helloworld.git (this will fail, need use the https address on github.com)
+git clone https://github.com/g070817/helloworld.git
+git branch
+git branch dev
+git checkout -b dev
+git merge dev
+git branch -d dev
+git push origin :dev
+git log --graph --pretty=oneline -- abbrev-commit
+
+
+
+git push origin :branch-name É¾³ýÔ¶³Ì·ÖÖ§git
+
+test merge
