@@ -29,6 +29,7 @@ git branch branch-name
 git checkout -b branch-name
 git merge branchname
 git branch -d branch-name
+git branch -D branch-name
 
 git push origin :branchname
 
@@ -39,5 +40,25 @@ git stash list
 git stash apply
 git stash drop
 git stash pop
+
+
+git push origin branch-name
+git pull
+git branch --set-upstream branch-name origin/branch-name
+git checkout -b branch-name origin/branch-name
+git remote -v
+
+git tag tag-name
+git log --pretty=oneline --abbrev-commit
+git tag tag-name commit-id
+git tag -d tag-name
+git push origin tag-name
+git push origin --tags
+
+git tag -d tag-name
+git push origin :refs/tags/tag-name
+
+
+
 
 git push origin :branch-name 
