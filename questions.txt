@@ -1,0 +1,2 @@
+Q1: Why the git tell me "fatal: unable to auto-detect email address £¨jeff@gaoyang(none)) when I commit the changes.
+A1: I wrongly type the user.email as user.mail when I add the global user settings.
